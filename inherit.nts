@@ -1,0 +1,27 @@
+// C++ supports public, protected and private inheritance
+
+// Use of protected and private inheritance is rare so we will stay
+// with public inheritance.
+
+// When deriving a class from a public base class, public members of the base class
+// become public members of the derived class and protected members of the base class
+// become protected members of the derived class.  A base class' private members
+// cannot be accessed directly from a derived class unless there are public or 
+// protected access functions.
+
+// When deriving a class from a protected base class, public and protected members
+// of the base class become protected members of the derived class.  
+
+// When deriving a class from a private base class, public and protected members 
+// of the base class become private members of the derived class.  
+
+// all examples have been of single inheritance but multiple inheritance can be used
+// multiple inheritance is when a class may be derived from more than one base class.
+
+// can do:
+//	class Derived: public Base1, public Base2
+// {
+//		.
+//		.		
+//		.
+// };
